@@ -1,4 +1,5 @@
-Summary:	MetAid is a tiny library for aiding metaprogramming.
+Summary:	MetAid - a tiny library for aiding metaprogramming
+Summary(pl):	MetAid - ma³a biblioteka wspomagaj±ca metaprogramowanie
 Name:		ruby-metaid
 Version:	1.0
 Release:	1
@@ -15,7 +16,10 @@ Requires: ruby-builder
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Markaby is a templating language for Ruby, with a plugin for Rails, which allows you to write HTML templates in pure-Ruby (a la Builder.)
+MetAid is a tiny library for aiding metaprogramming.
+
+%description -l pl
+MetAid to ma³a biblioteka wspomagaj±ca metaprogramowanie.
 
 %prep
 %setup -q -c
