@@ -1,5 +1,5 @@
 Summary:	MetAid - a tiny library for aiding metaprogramming
-Summary(pl):	MetAid - ma³a biblioteka wspomagaj±ca metaprogramowanie
+Summary(pl.UTF-8):   MetAid - maÅ‚a biblioteka wspomagajÄ…ca metaprogramowanie
 Name:		ruby-metaid
 Version:	1.0
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MetAid is a tiny library for aiding metaprogramming.
 
-%description -l pl
-MetAid to ma³a biblioteka wspomagaj±ca metaprogramowanie.
+%description -l pl.UTF-8
+MetAid to maÅ‚a biblioteka wspomagajÄ…ca metaprogramowanie.
 
 %prep
 %setup -q -c
