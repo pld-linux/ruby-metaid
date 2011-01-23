@@ -10,7 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/8124/metaid-1.0.gem
 URL:		http://rubyforge.org/projects/metaid/
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 Requires: ruby-builder
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
